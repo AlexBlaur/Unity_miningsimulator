@@ -1,0 +1,3061 @@
+fileFormatVersion: 2
+guid: 64c0ccef4a6151049b977484c56d7d16
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: AnkleIK_L
+    100006: AnkleIK_R
+    100008: //RootNode
+    100010: BendRoot
+    100012: Breast_L
+    100014: Breast_R
+    100016: Clavicle_L
+    100018: Clavicle_R
+    100020: Cube
+    100022: DfmBiceps_L
+    100024: DfmBiceps_R
+    100026: DfmClavicle_L
+    100028: DfmClavicle_R
+    100030: DfmDeltoid_L
+    100032: DfmDeltoid_R
+    100034: DfmElbowFwd_L
+    100036: DfmElbowFwd_R
+    100038: DfmFoot_L
+    100040: DfmFoot_R
+    100042: DfmHand_L
+    100044: DfmHand_R
+    100046: DfmHead
+    100048: DfmHipFan_L
+    100050: DfmHipFan_R
+    100052: DfmHips
+    100054: DfmKneeBack_L
+    100056: DfmKneeBack_R
+    100058: DfmKneeFan_L
+    100060: DfmKneeFan_R
+    100062: DfmLegOut_L
+    100064: DfmLegOut_R
+    100066: DfmLoArm1_L
+    100068: DfmLoArm1_R
+    100070: DfmLoArm2_L
+    100072: DfmLoArm2_R
+    100074: DfmLoArm3_L
+    100076: DfmLoArm3_R
+    100078: DfmLoLeg_L
+    100080: DfmLoLeg_R
+    100082: DfmLoLegFan_L
+    100084: DfmLoLegFan_R
+    100086: DfmLoLid_L
+    100088: DfmLoLid_R
+    100090: DfmNeck
+    100092: DfmPelvis
+    100094: DfmRib
+    100096: DfmSpine1
+    100098: DfmSpine2
+    100100: DfmSpine3
+    100102: DfmStomach
+    100104: DfmToe_L
+    100106: DfmToe_R
+    100108: DfmUpArm1_L
+    100110: DfmUpArm1_R
+    100112: DfmUpArm2_L
+    100114: DfmUpArm2_R
+    100116: DfmUpArm3_L
+    100118: DfmUpArm3_R
+    100120: DfmUpLeg1_L
+    100122: DfmUpLeg1_R
+    100124: DfmUpLeg2_L
+    100126: DfmUpLeg2_R
+    100128: DfmUpLid_L
+    100130: DfmUpLid_R
+    100132: DirElbowFwd_L
+    100134: DirElbowFwd_R
+    100136: DirElbowInv_L
+    100138: DirElbowInv_R
+    100140: DirKneeBack_L
+    100142: DirKneeBack_R
+    100144: DirKneeInv_L
+    100146: DirKneeInv_R
+    100148: DirShldrBack_L
+    100150: DirShldrBack_R
+    100152: DirShldrDown_L
+    100154: DirShldrDown_R
+    100156: DirShldrFwd_L
+    100158: DirShldrFwd_R
+    100160: DirShldrOut_L
+    100162: DirShldrOut_R
+    100164: DirShldrUp_L
+    100166: DirShldrUp_R
+    100168: DirUpLegBack_L
+    100170: DirUpLegBack_R
+    100172: DirUpLegFwd_L
+    100174: DirUpLegFwd_R
+    100176: DirUpLegOut_L
+    100178: DirUpLegOut_R
+    100180: Elbow_L
+    100182: Elbow_R
+    100184: ElbowLinkPT_L
+    100186: ElbowLinkPT_R
+    100188: ElbowPT_L
+    100190: ElbowPT_R
+    100192: ElbowPTFK_L
+    100194: ElbowPTFK_R
+    100196: ELClavicle_L
+    100198: ELClavicle_R
+    100200: ELClavLinkPT_L
+    100202: ELClavLinkPT_R
+    100204: ELClavPT_L
+    100206: ELClavPT_R
+    100208: ELUpArm_L
+    100210: ELUpArm_R
+    100212: Eye_L
+    100214: Eye_R
+    100216: EyeParent_L
+    100218: EyeParent_R
+    100220: Eyes
+    100222: Finger-1-1_L
+    100224: Finger-1-1_R
+    100226: Finger-1-2_L
+    100228: Finger-1-2_R
+    100230: Finger-1-3_L
+    100232: Finger-1-3_R
+    100234: Finger-1_L
+    100236: Finger-1_R
+    100238: Finger-2-1_L
+    100240: Finger-2-1_R
+    100242: Finger-2-2_L
+    100244: Finger-2-2_R
+    100246: Finger-2-3_L
+    100248: Finger-2-3_R
+    100250: Finger-2_L
+    100252: Finger-2_R
+    100254: Finger-3-1_L
+    100256: Finger-3-1_R
+    100258: Finger-3-2_L
+    100260: Finger-3-2_R
+    100262: Finger-3-3_L
+    100264: Finger-3-3_R
+    100266: Finger-3_L
+    100268: Finger-3_R
+    100270: Finger-4-1_L
+    100272: Finger-4-1_R
+    100274: Finger-4-2_L
+    100276: Finger-4-2_R
+    100278: Finger-4-3_L
+    100280: Finger-4-3_R
+    100282: Finger-4_L
+    100284: Finger-4_R
+    100286: Finger-5-1_L
+    100288: Finger-5-1_R
+    100290: Finger-5-2_L
+    100292: Finger-5-2_R
+    100294: Finger-5-3_L
+    100296: Finger-5-3_R
+    100298: Finger-5_L
+    100300: Finger-5_R
+    100302: Foot_L
+    100304: Foot_R
+    100306: FootPT_L
+    100308: FootPT_R
+    100310: FootRev_L
+    100312: FootRev_R
+    100314: Gaze
+    100316: GazeParent
+    100318: Hand_L
+    100320: Hand_R
+    100322: Head
+    100324: Hip_L
+    100326: Hip_R
+    100328: Hips
+    100330: Jaw
+    100332: KneeBackTrg_L
+    100334: KneeBackTrg_R
+    100336: KneeLinkPT_L
+    100338: KneeLinkPT_R
+    100340: KneePT_L
+    100342: KneePT_R
+    100344: KneePTFK_L
+    100346: KneePTFK_R
+    100348: LegFK_L
+    100350: LegFK_R
+    100352: LegIK_L
+    100354: LegIK_R
+    100356: LegOutTrg_L
+    100358: LegOutTrg_R
+    100360: LoArm2PT_L
+    100362: LoArm2PT_R
+    100364: LoArm3PT_L
+    100366: LoArm3PT_R
+    100368: LoArm_L
+    100370: LoArm_R
+    100372: LoArmIK_L
+    100374: LoArmIK_R
+    100376: LoArmRot_L
+    100378: LoArmRot_R
+    100380: LoArmVec_L
+    100382: LoArmVec_R
+    100384: LoLeg_L
+    100386: LoLeg_R
+    100388: LoLegIK_L
+    100390: LoLegIK_R
+    100392: Man
+    100394: ManMesh
+    100396: MasterFloor
+    100398: Neck
+    100400: Palm-1_L
+    100402: Palm-1_R
+    100404: Palm-2_L
+    100406: Palm-2_R
+    100408: Palm-3_L
+    100410: Palm-3_R
+    100412: Palm-4_L
+    100414: Palm-4_R
+    100416: Palm-5_L
+    100418: Palm-5_R
+    100420: PBrow_L
+    100422: PBrow_R
+    100424: PBrows
+    100426: PCheek_L
+    100428: PCheek_R
+    100430: Pelvis
+    100432: PFace
+    100434: PFaceDisp
+    100436: PJaw
+    100438: Plane_001
+    100440: Plane_002
+    100442: PLoLid_L
+    100444: PLoLid_R
+    100446: PLoLip_L
+    100448: PLoLip_R
+    100450: PLoLipMid
+    100452: PMouth_L
+    100454: PMouth_R
+    100456: PMouthMid
+    100458: PNose
+    100460: PTongue
+    100462: PUpLid_L
+    100464: PUpLid_R
+    100466: PUpLip_L
+    100468: PUpLip_R
+    100470: PUpLipMid
+    100472: Root
+    100474: Shoulder_L
+    100476: Shoulder_R
+    100478: Shoulders
+    100480: Sphere_001
+    100482: Spine1
+    100484: Spine2
+    100486: Spine3
+    100488: StomachTrg
+    100490: Toe_L
+    100492: Toe_R
+    100494: ToePT_L
+    100496: ToePT_R
+    100498: ToeRev_L
+    100500: ToeRev_R
+    100502: TongueBase
+    100504: TongueMid
+    100506: TongueTip
+    100508: UpArm2PT_L
+    100510: UpArm2PT_R
+    100512: UpArm3PT_L
+    100514: UpArm3PT_R
+    100516: UpArm_L
+    100518: UpArm_R
+    100520: UpArmHinge_L
+    100522: UpArmHinge_R
+    100524: UpArmIK_L
+    100526: UpArmIK_R
+    100528: UpArmRot_L
+    100530: UpArmRot_R
+    100532: UpArmSocket_L
+    100534: UpArmSocket_R
+    100536: UpArmVec_L
+    100538: UpArmVec_R
+    100540: UpArmVecNeg_L
+    100542: UpArmVecNeg_R
+    100544: UpArmVecPos_L
+    100546: UpArmVecPos_R
+    100548: UpLeg_L
+    100550: UpLeg_R
+    100552: UpLegIK_L
+    100554: UpLegIK_R
+    100556: UpLegVec_L
+    100558: UpLegVec_R
+    100560: UpLegVecNeg_L
+    100562: UpLegVecNeg_R
+    100564: Wrist-1_L
+    100566: Wrist-1_R
+    100568: Wrist-2_L
+    100570: Wrist-2_R
+    100572: Wrist_L
+    100574: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: AnkleIK_L
+    400006: AnkleIK_R
+    400008: //RootNode
+    400010: BendRoot
+    400012: Breast_L
+    400014: Breast_R
+    400016: Clavicle_L
+    400018: Clavicle_R
+    400020: Cube
+    400022: DfmBiceps_L
+    400024: DfmBiceps_R
+    400026: DfmClavicle_L
+    400028: DfmClavicle_R
+    400030: DfmDeltoid_L
+    400032: DfmDeltoid_R
+    400034: DfmElbowFwd_L
+    400036: DfmElbowFwd_R
+    400038: DfmFoot_L
+    400040: DfmFoot_R
+    400042: DfmHand_L
+    400044: DfmHand_R
+    400046: DfmHead
+    400048: DfmHipFan_L
+    400050: DfmHipFan_R
+    400052: DfmHips
+    400054: DfmKneeBack_L
+    400056: DfmKneeBack_R
+    400058: DfmKneeFan_L
+    400060: DfmKneeFan_R
+    400062: DfmLegOut_L
+    400064: DfmLegOut_R
+    400066: DfmLoArm1_L
+    400068: DfmLoArm1_R
+    400070: DfmLoArm2_L
+    400072: DfmLoArm2_R
+    400074: DfmLoArm3_L
+    400076: DfmLoArm3_R
+    400078: DfmLoLeg_L
+    400080: DfmLoLeg_R
+    400082: DfmLoLegFan_L
+    400084: DfmLoLegFan_R
+    400086: DfmLoLid_L
+    400088: DfmLoLid_R
+    400090: DfmNeck
+    400092: DfmPelvis
+    400094: DfmRib
+    400096: DfmSpine1
+    400098: DfmSpine2
+    400100: DfmSpine3
+    400102: DfmStomach
+    400104: DfmToe_L
+    400106: DfmToe_R
+    400108: DfmUpArm1_L
+    400110: DfmUpArm1_R
+    400112: DfmUpArm2_L
+    400114: DfmUpArm2_R
+    400116: DfmUpArm3_L
+    400118: DfmUpArm3_R
+    400120: DfmUpLeg1_L
+    400122: DfmUpLeg1_R
+    400124: DfmUpLeg2_L
+    400126: DfmUpLeg2_R
+    400128: DfmUpLid_L
+    400130: DfmUpLid_R
+    400132: DirElbowFwd_L
+    400134: DirElbowFwd_R
+    400136: DirElbowInv_L
+    400138: DirElbowInv_R
+    400140: DirKneeBack_L
+    400142: DirKneeBack_R
+    400144: DirKneeInv_L
+    400146: DirKneeInv_R
+    400148: DirShldrBack_L
+    400150: DirShldrBack_R
+    400152: DirShldrDown_L
+    400154: DirShldrDown_R
+    400156: DirShldrFwd_L
+    400158: DirShldrFwd_R
+    400160: DirShldrOut_L
+    400162: DirShldrOut_R
+    400164: DirShldrUp_L
+    400166: DirShldrUp_R
+    400168: DirUpLegBack_L
+    400170: DirUpLegBack_R
+    400172: DirUpLegFwd_L
+    400174: DirUpLegFwd_R
+    400176: DirUpLegOut_L
+    400178: DirUpLegOut_R
+    400180: Elbow_L
+    400182: Elbow_R
+    400184: ElbowLinkPT_L
+    400186: ElbowLinkPT_R
+    400188: ElbowPT_L
+    400190: ElbowPT_R
+    400192: ElbowPTFK_L
+    400194: ElbowPTFK_R
+    400196: ELClavicle_L
+    400198: ELClavicle_R
+    400200: ELClavLinkPT_L
+    400202: ELClavLinkPT_R
+    400204: ELClavPT_L
+    400206: ELClavPT_R
+    400208: ELUpArm_L
+    400210: ELUpArm_R
+    400212: Eye_L
+    400214: Eye_R
+    400216: EyeParent_L
+    400218: EyeParent_R
+    400220: Eyes
+    400222: Finger-1-1_L
+    400224: Finger-1-1_R
+    400226: Finger-1-2_L
+    400228: Finger-1-2_R
+    400230: Finger-1-3_L
+    400232: Finger-1-3_R
+    400234: Finger-1_L
+    400236: Finger-1_R
+    400238: Finger-2-1_L
+    400240: Finger-2-1_R
+    400242: Finger-2-2_L
+    400244: Finger-2-2_R
+    400246: Finger-2-3_L
+    400248: Finger-2-3_R
+    400250: Finger-2_L
+    400252: Finger-2_R
+    400254: Finger-3-1_L
+    400256: Finger-3-1_R
+    400258: Finger-3-2_L
+    400260: Finger-3-2_R
+    400262: Finger-3-3_L
+    400264: Finger-3-3_R
+    400266: Finger-3_L
+    400268: Finger-3_R
+    400270: Finger-4-1_L
+    400272: Finger-4-1_R
+    400274: Finger-4-2_L
+    400276: Finger-4-2_R
+    400278: Finger-4-3_L
+    400280: Finger-4-3_R
+    400282: Finger-4_L
+    400284: Finger-4_R
+    400286: Finger-5-1_L
+    400288: Finger-5-1_R
+    400290: Finger-5-2_L
+    400292: Finger-5-2_R
+    400294: Finger-5-3_L
+    400296: Finger-5-3_R
+    400298: Finger-5_L
+    400300: Finger-5_R
+    400302: Foot_L
+    400304: Foot_R
+    400306: FootPT_L
+    400308: FootPT_R
+    400310: FootRev_L
+    400312: FootRev_R
+    400314: Gaze
+    400316: GazeParent
+    400318: Hand_L
+    400320: Hand_R
+    400322: Head
+    400324: Hip_L
+    400326: Hip_R
+    400328: Hips
+    400330: Jaw
+    400332: KneeBackTrg_L
+    400334: KneeBackTrg_R
+    400336: KneeLinkPT_L
+    400338: KneeLinkPT_R
+    400340: KneePT_L
+    400342: KneePT_R
+    400344: KneePTFK_L
+    400346: KneePTFK_R
+    400348: LegFK_L
+    400350: LegFK_R
+    400352: LegIK_L
+    400354: LegIK_R
+    400356: LegOutTrg_L
+    400358: LegOutTrg_R
+    400360: LoArm2PT_L
+    400362: LoArm2PT_R
+    400364: LoArm3PT_L
+    400366: LoArm3PT_R
+    400368: LoArm_L
+    400370: LoArm_R
+    400372: LoArmIK_L
+    400374: LoArmIK_R
+    400376: LoArmRot_L
+    400378: LoArmRot_R
+    400380: LoArmVec_L
+    400382: LoArmVec_R
+    400384: LoLeg_L
+    400386: LoLeg_R
+    400388: LoLegIK_L
+    400390: LoLegIK_R
+    400392: Man
+    400394: ManMesh
+    400396: MasterFloor
+    400398: Neck
+    400400: Palm-1_L
+    400402: Palm-1_R
+    400404: Palm-2_L
+    400406: Palm-2_R
+    400408: Palm-3_L
+    400410: Palm-3_R
+    400412: Palm-4_L
+    400414: Palm-4_R
+    400416: Palm-5_L
+    400418: Palm-5_R
+    400420: PBrow_L
+    400422: PBrow_R
+    400424: PBrows
+    400426: PCheek_L
+    400428: PCheek_R
+    400430: Pelvis
+    400432: PFace
+    400434: PFaceDisp
+    400436: PJaw
+    400438: Plane_001
+    400440: Plane_002
+    400442: PLoLid_L
+    400444: PLoLid_R
+    400446: PLoLip_L
+    400448: PLoLip_R
+    400450: PLoLipMid
+    400452: PMouth_L
+    400454: PMouth_R
+    400456: PMouthMid
+    400458: PNose
+    400460: PTongue
+    400462: PUpLid_L
+    400464: PUpLid_R
+    400466: PUpLip_L
+    400468: PUpLip_R
+    400470: PUpLipMid
+    400472: Root
+    400474: Shoulder_L
+    400476: Shoulder_R
+    400478: Shoulders
+    400480: Sphere_001
+    400482: Spine1
+    400484: Spine2
+    400486: Spine3
+    400488: StomachTrg
+    400490: Toe_L
+    400492: Toe_R
+    400494: ToePT_L
+    400496: ToePT_R
+    400498: ToeRev_L
+    400500: ToeRev_R
+    400502: TongueBase
+    400504: TongueMid
+    400506: TongueTip
+    400508: UpArm2PT_L
+    400510: UpArm2PT_R
+    400512: UpArm3PT_L
+    400514: UpArm3PT_R
+    400516: UpArm_L
+    400518: UpArm_R
+    400520: UpArmHinge_L
+    400522: UpArmHinge_R
+    400524: UpArmIK_L
+    400526: UpArmIK_R
+    400528: UpArmRot_L
+    400530: UpArmRot_R
+    400532: UpArmSocket_L
+    400534: UpArmSocket_R
+    400536: UpArmVec_L
+    400538: UpArmVec_R
+    400540: UpArmVecNeg_L
+    400542: UpArmVecNeg_R
+    400544: UpArmVecPos_L
+    400546: UpArmVecPos_R
+    400548: UpLeg_L
+    400550: UpLeg_R
+    400552: UpLegIK_L
+    400554: UpLegIK_R
+    400556: UpLegVec_L
+    400558: UpLegVec_R
+    400560: UpLegVecNeg_L
+    400562: UpLegVecNeg_R
+    400564: Wrist-1_L
+    400566: Wrist-1_R
+    400568: Wrist-2_L
+    400570: Wrist-2_R
+    400572: Wrist_L
+    400574: Wrist_R
+    2300000: Cube
+    3300000: Cube
+    4300000: ManMesh
+    4300002: Plane_002
+    4300004: Plane_001
+    4300006: Sphere_001
+    4300008: Cube
+    6400000: Cube
+    7400000: pressRever
+    7400002: walk
+    7400004: pressButton
+    7400006: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ManMesh
+    13700002: Plane_001
+    13700004: Plane_002
+    13700006: Sphere_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pressRever
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Man
+        weight: 1
+      - path: Man/MasterFloor
+        weight: 1
+      - path: Man/MasterFloor/Ankle_L
+        weight: 1
+      - path: Man/MasterFloor/Ankle_R
+        weight: 1
+      - path: Man/MasterFloor/Elbow_L
+        weight: 1
+      - path: Man/MasterFloor/Elbow_R
+        weight: 1
+      - path: Man/MasterFloor/GazeParent
+        weight: 1
+      - path: Man/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Man/MasterFloor/Root
+        weight: 1
+      - path: Man/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Man/MasterFloor/Shoulders
+        weight: 1
+      - path: Man/MasterFloor/Wrist_L
+        weight: 1
+      - path: Man/MasterFloor/Wrist_R
+        weight: 1
+      - path: Man/PFace
+        weight: 1
+      - path: Man/PFace/PBrow_L
+        weight: 1
+      - path: Man/PFace/PBrow_R
+        weight: 1
+      - path: Man/PFace/PBrows
+        weight: 1
+      - path: Man/PFace/PCheek_L
+        weight: 1
+      - path: Man/PFace/PCheek_R
+        weight: 1
+      - path: Man/PFace/PFaceDisp
+        weight: 1
+      - path: Man/PFace/PJaw
+        weight: 1
+      - path: Man/PFace/PLoLid_L
+        weight: 1
+      - path: Man/PFace/PLoLid_R
+        weight: 1
+      - path: Man/PFace/PLoLip_L
+        weight: 1
+      - path: Man/PFace/PLoLip_R
+        weight: 1
+      - path: Man/PFace/PLoLipMid
+        weight: 1
+      - path: Man/PFace/PMouth_L
+        weight: 1
+      - path: Man/PFace/PMouth_R
+        weight: 1
+      - path: Man/PFace/PMouthMid
+        weight: 1
+      - path: Man/PFace/PNose
+        weight: 1
+      - path: Man/PFace/PTongue
+        weight: 1
+      - path: Man/PFace/PUpLid_L
+        weight: 1
+      - path: Man/PFace/PUpLid_R
+        weight: 1
+      - path: Man/PFace/PUpLip_L
+        weight: 1
+      - path: Man/PFace/PUpLip_R
+        weight: 1
+      - path: Man/PFace/PUpLipMid
+        weight: 1
+      - path: ManMesh
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plane_002
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: pressButton
+      takeName: ManAction
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Man
+        weight: 1
+      - path: Man/MasterFloor
+        weight: 1
+      - path: Man/MasterFloor/Ankle_L
+        weight: 1
+      - path: Man/MasterFloor/Ankle_R
+        weight: 1
+      - path: Man/MasterFloor/Elbow_L
+        weight: 1
+      - path: Man/MasterFloor/Elbow_R
+        weight: 1
+      - path: Man/MasterFloor/GazeParent
+        weight: 1
+      - path: Man/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Man/MasterFloor/Root
+        weight: 1
+      - path: Man/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Man/MasterFloor/Shoulders
+        weight: 1
+      - path: Man/MasterFloor/Wrist_L
+        weight: 1
+      - path: Man/MasterFloor/Wrist_R
+        weight: 1
+      - path: Man/PFace
+        weight: 1
+      - path: Man/PFace/PBrow_L
+        weight: 1
+      - path: Man/PFace/PBrow_R
+        weight: 1
+      - path: Man/PFace/PBrows
+        weight: 1
+      - path: Man/PFace/PCheek_L
+        weight: 1
+      - path: Man/PFace/PCheek_R
+        weight: 1
+      - path: Man/PFace/PFaceDisp
+        weight: 1
+      - path: Man/PFace/PJaw
+        weight: 1
+      - path: Man/PFace/PLoLid_L
+        weight: 1
+      - path: Man/PFace/PLoLid_R
+        weight: 1
+      - path: Man/PFace/PLoLip_L
+        weight: 1
+      - path: Man/PFace/PLoLip_R
+        weight: 1
+      - path: Man/PFace/PLoLipMid
+        weight: 1
+      - path: Man/PFace/PMouth_L
+        weight: 1
+      - path: Man/PFace/PMouth_R
+        weight: 1
+      - path: Man/PFace/PMouthMid
+        weight: 1
+      - path: Man/PFace/PNose
+        weight: 1
+      - path: Man/PFace/PTongue
+        weight: 1
+      - path: Man/PFace/PUpLid_L
+        weight: 1
+      - path: Man/PFace/PUpLid_R
+        weight: 1
+      - path: Man/PFace/PUpLip_L
+        weight: 1
+      - path: Man/PFace/PUpLip_R
+        weight: 1
+      - path: Man/PFace/PUpLipMid
+        weight: 1
+      - path: ManMesh
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plane_002
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Man
+        weight: 1
+      - path: Man/MasterFloor
+        weight: 1
+      - path: Man/MasterFloor/Ankle_L
+        weight: 1
+      - path: Man/MasterFloor/Ankle_R
+        weight: 1
+      - path: Man/MasterFloor/Elbow_L
+        weight: 1
+      - path: Man/MasterFloor/Elbow_R
+        weight: 1
+      - path: Man/MasterFloor/GazeParent
+        weight: 1
+      - path: Man/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Man/MasterFloor/Root
+        weight: 1
+      - path: Man/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Man/MasterFloor/Shoulders
+        weight: 1
+      - path: Man/MasterFloor/Wrist_L
+        weight: 1
+      - path: Man/MasterFloor/Wrist_R
+        weight: 1
+      - path: Man/PFace
+        weight: 1
+      - path: Man/PFace/PBrow_L
+        weight: 1
+      - path: Man/PFace/PBrow_R
+        weight: 1
+      - path: Man/PFace/PBrows
+        weight: 1
+      - path: Man/PFace/PCheek_L
+        weight: 1
+      - path: Man/PFace/PCheek_R
+        weight: 1
+      - path: Man/PFace/PFaceDisp
+        weight: 1
+      - path: Man/PFace/PJaw
+        weight: 1
+      - path: Man/PFace/PLoLid_L
+        weight: 1
+      - path: Man/PFace/PLoLid_R
+        weight: 1
+      - path: Man/PFace/PLoLip_L
+        weight: 1
+      - path: Man/PFace/PLoLip_R
+        weight: 1
+      - path: Man/PFace/PLoLipMid
+        weight: 1
+      - path: Man/PFace/PMouth_L
+        weight: 1
+      - path: Man/PFace/PMouth_R
+        weight: 1
+      - path: Man/PFace/PMouthMid
+        weight: 1
+      - path: Man/PFace/PNose
+        weight: 1
+      - path: Man/PFace/PTongue
+        weight: 1
+      - path: Man/PFace/PUpLid_L
+        weight: 1
+      - path: Man/PFace/PUpLid_R
+        weight: 1
+      - path: Man/PFace/PUpLip_L
+        weight: 1
+      - path: Man/PFace/PUpLip_R
+        weight: 1
+      - path: Man/PFace/PUpLipMid
+        weight: 1
+      - path: ManMesh
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plane_002
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Man
+        weight: 1
+      - path: Man/MasterFloor
+        weight: 1
+      - path: Man/MasterFloor/Ankle_L
+        weight: 1
+      - path: Man/MasterFloor/Ankle_R
+        weight: 1
+      - path: Man/MasterFloor/Elbow_L
+        weight: 1
+      - path: Man/MasterFloor/Elbow_R
+        weight: 1
+      - path: Man/MasterFloor/GazeParent
+        weight: 1
+      - path: Man/MasterFloor/GazeParent/Gaze
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/AnkleIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/FootPT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/FootRev_L/KneePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_L/ToeRev_L/ToePT_L
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/FootPT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/FootRev_R/KneePT_R
+        weight: 1
+      - path: Man/MasterFloor/LegIK_R/ToeRev_R/ToePT_R
+        weight: 1
+      - path: Man/MasterFloor/Root
+        weight: 1
+      - path: Man/MasterFloor/Root/BendRoot
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/DfmLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/DfmHips/StomachTrg
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmHipFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DfmUpLeg1_L/LegOutTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/DirUpLegOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmLoLegFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DfmUpLeg2_L/DfmKneeFan_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/DirKneeInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneeLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/KneePTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/DfmLoLeg_L/KneeBackTrg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/DfmFoot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/DfmToe_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLeg_L/LoLeg_L/Foot_L/Toe_L/LegFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegIK_L/LoLegIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_L/UpLegVec_L/UpLegVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmHipFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DfmUpLeg1_R/LegOutTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/DirUpLegOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmLoLegFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DfmUpLeg2_R/DfmKneeFan_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/DirKneeInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneeLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/KneePTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/DfmLoLeg_R/KneeBackTrg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/DfmFoot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/DfmToe_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLeg_R/LoLeg_R/Foot_R/Toe_R/LegFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegIK_R/LoLegIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Hips/Hip_R/UpLegVec_R/UpLegVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/Breast_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmNeck/DfmHead
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/DfmRib/DfmStomach
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_L/ELUpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavicle_R/ELUpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/DfmPelvis/DfmSpine1/DfmSpine2/DfmSpine3/ELClavPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DfmClavicle_L/DfmDeltoid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrBack_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrDown_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrOut_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/DirShldrUp_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/ELClavLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_L/Shoulder_L/ElbowPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DfmClavicle_R/DfmDeltoid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrBack_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrDown_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrOut_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/DirShldrUp_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/ELClavLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Clavicle_R/Shoulder_R/ElbowPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmLoLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/DfmUpLid_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_L/Eye_L
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/EyeParent_R/Eye_R
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Eyes
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid
+        weight: 1
+      - path: Man/MasterFloor/Root/Pelvis/Spine1/Spine2/Spine3/Neck/Head/Jaw/TongueBase/TongueMid/TongueTip
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/DfmBiceps_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DfmUpArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowFwd_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/DirElbowInv_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowLinkPT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/ElbowPTFK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/DfmLoArm3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/DfmHand_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1-2_L/Finger-1-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Palm-1_L/Finger-1-1_L/Finger-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2-1_L/Finger-2-2_L/Finger-2-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-2_L/Finger-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3-1_L/Finger-3-2_L/Finger-3-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-1_L/Palm-3_L/Finger-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4-1_L/Finger-4-2_L/Finger-4-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-4_L/Finger-4_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5-1_L/Finger-5-2_L/Finger-5-3_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/Hand_L/Wrist-2_L/Palm-5_L/Finger-5_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArm_L/LoArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/DfmLoArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmRot_L/DfmLoArm1_L/LoArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/LoArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArm_L/UpArm3PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmIK_L/LoArmIK_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/DfmUpArm2_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmHinge_L/UpArmRot_L/DfmUpArm1_L/UpArm2PT_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVec_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecNeg_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_L/UpArmVecPos_L
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/DfmBiceps_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DfmUpArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowFwd_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/DirElbowInv_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowLinkPT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/ElbowPTFK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/DfmLoArm3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/DfmHand_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1-2_R/Finger-1-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Palm-1_R/Finger-1-1_R/Finger-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2-1_R/Finger-2-2_R/Finger-2-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-2_R/Finger-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3-1_R/Finger-3-2_R/Finger-3-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-1_R/Palm-3_R/Finger-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4-1_R/Finger-4-2_R/Finger-4-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-4_R/Finger-4_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5-1_R/Finger-5-2_R/Finger-5-3_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/Hand_R/Wrist-2_R/Palm-5_R/Finger-5_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArm_R/LoArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/DfmLoArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmRot_R/DfmLoArm1_R/LoArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/LoArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArm_R/UpArm3PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmIK_R/LoArmIK_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/DfmUpArm2_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmHinge_R/UpArmRot_R/DfmUpArm1_R/UpArm2PT_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVec_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecNeg_R
+        weight: 1
+      - path: Man/MasterFloor/Root/UpArmSocket_R/UpArmVecPos_R
+        weight: 1
+      - path: Man/MasterFloor/Shoulders
+        weight: 1
+      - path: Man/MasterFloor/Wrist_L
+        weight: 1
+      - path: Man/MasterFloor/Wrist_R
+        weight: 1
+      - path: Man/PFace
+        weight: 1
+      - path: Man/PFace/PBrow_L
+        weight: 1
+      - path: Man/PFace/PBrow_R
+        weight: 1
+      - path: Man/PFace/PBrows
+        weight: 1
+      - path: Man/PFace/PCheek_L
+        weight: 1
+      - path: Man/PFace/PCheek_R
+        weight: 1
+      - path: Man/PFace/PFaceDisp
+        weight: 1
+      - path: Man/PFace/PJaw
+        weight: 1
+      - path: Man/PFace/PLoLid_L
+        weight: 1
+      - path: Man/PFace/PLoLid_R
+        weight: 1
+      - path: Man/PFace/PLoLip_L
+        weight: 1
+      - path: Man/PFace/PLoLip_R
+        weight: 1
+      - path: Man/PFace/PLoLipMid
+        weight: 1
+      - path: Man/PFace/PMouth_L
+        weight: 1
+      - path: Man/PFace/PMouth_R
+        weight: 1
+      - path: Man/PFace/PMouthMid
+        weight: 1
+      - path: Man/PFace/PNose
+        weight: 1
+      - path: Man/PFace/PTongue
+        weight: 1
+      - path: Man/PFace/PUpLid_L
+        weight: 1
+      - path: Man/PFace/PUpLid_R
+        weight: 1
+      - path: Man/PFace/PUpLip_L
+        weight: 1
+      - path: Man/PFace/PUpLip_R
+        weight: 1
+      - path: Man/PFace/PUpLipMid
+        weight: 1
+      - path: ManMesh
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plane_002
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
