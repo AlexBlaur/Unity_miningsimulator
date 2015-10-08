@@ -44,13 +44,14 @@ public class AnimateOnButton : MonoBehaviour {
 				//FirstAnimation.animation.Play ();
 				//Debug.Log("WHAAAAAT");
 				SecondAnimation.animation.Play();
+				SecondAnimation.audio.Play ();
 				//SecondAnimation.audio.Play();
 
 			} else {
 				if (SecondAnimation.animation.isPlaying & Input.GetKeyUp (KeyCode.E)) {
 					//FirstAnimation.animation.Stop ();
 					SecondAnimation.animation.Stop();
-					//SecondAnimation.audio.Stop();
+					SecondAnimation.audio.Stop();
 				}
 			}
 		}

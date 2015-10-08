@@ -52,6 +52,7 @@
      <Compile Include="Assets\Graphic Power-Up\RealtimeCubemap\Components\CubemapFace.cs" />
      <Compile Include="Assets\Graphic Power-Up\RealtimeCubemap\CubemapController.cs" />
      <Compile Include="Assets\scripts\AnimateOnButton.cs" />
+     <Compile Include="Assets\scripts\ColliderHit.cs" />
      <Compile Include="Assets\scripts\Fade.cs" />
      <Compile Include="Assets\scripts\GUIMan.cs" />
      <Compile Include="Assets\scripts\MapCamera.cs" />
