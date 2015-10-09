@@ -19,6 +19,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -30,7 +31,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: .00999999978
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0

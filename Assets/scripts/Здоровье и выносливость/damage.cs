@@ -33,11 +33,29 @@ public class damage : MonoBehaviour {
 		
 		if(fallDistance <= 5 && controller.isGrounded) { 
 			ApplyNormal(); 
-		} 
+		}
+
+		if (PlayerSt.CurHealth <= 0) {
+			Application.LoadLevel("Tonnel_blender");
+		}
 	} 
 	
 	void ApplyNormal() { 
 		fallDistance = 0; 
 		lastPositionY = 0; 
 	} 
+
+	void RestartLevel()
+	{
+		PlayerStats PlayerSt = (PlayerStats)Char.GetComponent("PlayerStats");
+		if (PlayerSt.CurHealth <= 0) {
+			Application.LoadLevel("Tonnel_blender");
+		}
+	}
+
+	public void DamageHealth(int damagePoint)
+	{
+		PlayerStats PlayerSt = (PlayerStats)Char.GetComponent("PlayerStats");
+		PlayerSt.CurHealth = PlayerSt.CurHealth - damagePoint;
+	}
 }

@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ColliderHit.cs">
     <Files>
-      <File FileName="Assets\scripts\AnimateOnButton.cs" Line="54" Column="6" />
-      <File FileName="Assets\scripts\UIShow.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Fade.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\ColliderHit.cs" Line="24" Column="11" />
+      <File FileName="Assets\scripts\ColliderHit.cs" Line="55" Column="1" />
+      <File FileName="Assets\scripts\AnimateOnButton.cs" Line="21" Column="9" />
+      <File FileName="Assets\scripts\Здоровье и выносливость\damage.cs" Line="56" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
