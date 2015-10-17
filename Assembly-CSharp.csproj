@@ -56,6 +56,7 @@
      <Compile Include="Assets\scripts\Fade.cs" />
      <Compile Include="Assets\scripts\GUIMan.cs" />
      <Compile Include="Assets\scripts\MapCamera.cs" />
+     <Compile Include="Assets\scripts\NotEnter.cs" />
      <Compile Include="Assets\scripts\SoundShag.cs" />
      <Compile Include="Assets\scripts\TestTrigger.cs" />
      <Compile Include="Assets\scripts\UIShow.cs" />

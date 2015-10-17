@@ -5,6 +5,7 @@ public class ColliderHit : MonoBehaviour {
 	//public GlobalFog script2Reference;
 	public GameObject Object; //музыка
 	public GameObject animObj; //анимация
+	public int hitman=50;
 	//public GameObject camObj; //камера
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class ColliderHit : MonoBehaviour {
 				target.enabled=true;
 				//уменьшить здоровье и постепенно уменьшать до нуля. После чего - ресет игры
 				damage Dam = (damage)FindObjectOfType(typeof(damage));
-				Dam.DamageHealth(50);
+				Dam.DamageHealth(hitman);
 			}
 		}
 
