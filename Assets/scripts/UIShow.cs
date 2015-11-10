@@ -15,7 +15,7 @@ public class UIShow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		PlayerBarDisplay Bare = (PlayerBarDisplay)Bar.GetComponent("PlayerBarDisplay");
-		if (!MapEnable & Input.GetKeyUp(KeyCode.H))
+		if (!MapEnable & Input.GetKeyDown(KeyCode.H))
 		{
 			MapEnable=true;
 			Bare.Visible=false;

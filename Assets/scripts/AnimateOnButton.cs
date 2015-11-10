@@ -18,11 +18,11 @@ public class AnimateOnButton : MonoBehaviour {
 	}
 	void OnTriggerStay(Collider collision){
 		if (collision.CompareTag ("MainCamera")) {
-			if (!SecondAnimation.animation.isPlaying & Input.GetKeyUp (KeyCode.E)) {
+			if (!SecondAnimation.animation.isPlaying & Input.GetKeyDown (KeyCode.E)) {
 				SecondAnimation.animation.Play();
 				SecondAnimation.audio.Play ();
 			} else {
-				if (SecondAnimation.animation.isPlaying & Input.GetKeyUp (KeyCode.E)) {
+				if (SecondAnimation.animation.isPlaying & Input.GetKeyDown (KeyCode.E)) {
 					SecondAnimation.animation.Stop();
 					SecondAnimation.audio.Stop();
 				}
